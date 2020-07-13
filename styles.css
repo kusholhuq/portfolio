@@ -28,5 +28,12 @@
 }
 
 .overlay{
-  background-color:#4fbfa8;
+color: white;
+position: relative;
+top: 40vh;
+text-align: center;
+}
+
+h1.overlay{
+  font-weight: bold;
 }
