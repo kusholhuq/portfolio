@@ -57,4 +57,5 @@ text-align: center;
   height: 50vh;
   border: solid #4fbfa8 6px;
   border-radius: 50%;
+  background-position-x: 25%;
 }
