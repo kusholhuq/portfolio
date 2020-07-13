@@ -2,6 +2,16 @@
 *{
   font-family: 'Roboto Condensed', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap');
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+.underline{
+  border-bottom:#4fbfa8 solid 2px;
+}
+h1{
+  font-size: 3.5rem;
+}
 
 /* navbar */
 
@@ -34,6 +44,17 @@ top: 40vh;
 text-align: center;
 }
 
-h1.overlay{
-  font-weight: bold;
+/* about me */
+.about{
+  position: relative;
+  top: 10rem;
+}
+
+.portrait{
+  background-image: url(./assets/images/kushol-h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  border: solid #4fbfa8 6px;
+  border-radius: 50%;
 }
