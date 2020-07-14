@@ -1,0 +1,77 @@
+/* font */
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap');
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+.underline{
+  border-bottom:#4fbfa8 solid 2px;
+}
+h1{
+  font-size: 3.5rem;
+}
+
+/* navbar */
+
+.header{
+  z-index: 1;
+  font-size: 1.2rem;
+  width:100vw;
+  height: 4rem;
+  font-weight: bold;
+  /* background: rgba(0,0,0,.5); */
+  background: rgb(248, 249, 250);
+  box-shadow: rgba(0,0,0,.5) 0 3px 10px 3px;
+  color: #4fbfa8;
+}
+
+
+/* intro */
+.background-image{
+  position: relative;
+  top: 4rem;
+  background:url(./assets/images/mac-d.jpg) center center no-repeat;
+  background-size: cover;
+  height: 92vh;
+}
+
+.overlay{
+color: white;
+position: relative;
+top: 40vh;
+text-align: center;
+}
+
+/* about me */
+.about{
+  position: relative;
+  top: 10rem;
+}
+
+.portrait{
+  background-image: url(./assets/images/kushol-h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  border: solid #4fbfa8 6px;
+  border-radius: 50%;
+  background-position-x: 25%;
+}
+
+.circle{
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(33, 37, 41);
+  border-radius: 50%;
+  align-items: center;
+}
+.turq{
+  color:#4fbfa8;
+}
+.icon{
+  position: relative;
+  top: .75rem;
+  font-size:1.5rem;
+}
