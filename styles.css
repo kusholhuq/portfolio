@@ -61,8 +61,8 @@ text-align: center;
 }
 
 .circle{
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   background-color: rgb(33, 37, 41);
   border-radius: 50%;
   align-items: center;
@@ -72,6 +72,6 @@ text-align: center;
 }
 .icon{
   position: relative;
-  top: 1rem;
-  font-size:2rem;
+  top: .75rem;
+  font-size:1.5rem;
 }
