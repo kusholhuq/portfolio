@@ -59,3 +59,19 @@ text-align: center;
   border-radius: 50%;
   background-position-x: 25%;
 }
+
+.circle{
+  height: 4rem;
+  width: 4rem;
+  background-color: rgb(33, 37, 41);
+  border-radius: 50%;
+  align-items: center;
+}
+.turq{
+  color:#4fbfa8;
+}
+.icon{
+  position: relative;
+  top: 1rem;
+  font-size:2rem;
+}
