@@ -75,3 +75,34 @@ text-align: center;
   top: .75rem;
   font-size:1.5rem;
 }
+
+/* skills */
+
+.push-down{
+  position: relative;
+  top: 20rem;
+}
+
+.big{
+  font-size: 5rem;
+}
+
+.skills-background{
+  background-image: url(./assets/images/lights.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 1rem;
+}
+.white{
+  color: white;
+}
+.box{
+  margin: 3rem 0;
+}
+.bigg{
+  font-size:5rem;
+}
