@@ -80,14 +80,14 @@ text-align: center;
 
 .push-down{
   position: relative;
-  top: 20rem;
+  top: 17rem;
 }
 
 .big{
   font-size: 5rem;
 }
 
-.skills-background{
+.tools-background{
   background-image: url(./assets/images/lights.jpg);
   background-repeat: no-repeat;
   background-size: cover;
