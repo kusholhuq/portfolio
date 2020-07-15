@@ -125,3 +125,14 @@ text-align: center;
  .skills{
    background-color: rgb(248, 249, 250);
  }
+
+
+/* footer */
+
+.middle{
+  width: 50vw;
+}
+
+.contact{
+  background-color: rgb(33, 37, 41);
+}
