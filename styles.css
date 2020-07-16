@@ -136,3 +136,8 @@ text-align: center;
 .contact{
   background-color: rgb(33, 37, 41);
 }
+
+.push-down-slight{
+  position: relative;
+  top: .2rem;
+}
