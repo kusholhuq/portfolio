@@ -161,3 +161,23 @@ a.a-tag{
   position: relative;
   top: .2rem;
 }
+
+/* .white-background{
+  background-color: rgb(248, 249, 250);
+  transition: ease .2s all;
+}
+
+.white-background:hover{
+  background-color:#4fbfa8;
+
+  transition: ease .2s all;
+}
+
+.contact-icon:{
+  transition: ease-in .2s all
+}
+*/
+.contact-icon:hover{
+  color: #4fbfa8;
+  transition: ease-in .1s all
+}
