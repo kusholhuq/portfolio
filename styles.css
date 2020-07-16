@@ -139,6 +139,19 @@ a.a-tag{
    margin: .1rem 0;
  }
 
+  .proj-button{
+    background-color: white;
+    color: black;
+    border: 2px solid #4fbfa8;
+    transition: all .15s ease-in;
+    border-radius:20px;
+  }
+  .proj-button:hover{
+    background-color: #4fbfa8;
+    color: white;
+    transition: all .15s ease-in;
+    border: 2px solid #4fbfa8;
+  }
 
  /* skills */
 
@@ -160,4 +173,28 @@ a.a-tag{
 .push-down-slight{
   position: relative;
   top: .2rem;
+}
+
+/* .white-background{
+  background-color: rgb(248, 249, 250);
+  transition: ease .2s all;
+}
+
+.white-background:hover{
+  background-color:#4fbfa8;
+
+  transition: ease .2s all;
+}
+
+.contact-icon:{
+  transition: ease-in .2s all
+}
+*/
+.contact-icon:hover{
+  color: #4fbfa8;
+  transition: ease-in .1s all
+}
+
+.hover-turq:hover{
+  color: #4fbfa8;
 }
