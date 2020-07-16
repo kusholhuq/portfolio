@@ -181,3 +181,7 @@ a.a-tag{
   color: #4fbfa8;
   transition: ease-in .1s all
 }
+
+.hover-turq:hover{
+  color: #4fbfa8;
+}
