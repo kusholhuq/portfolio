@@ -44,6 +44,15 @@ top: 40vh;
 text-align: center;
 }
 
+.nav{
+  transition: all .2s ease-in;
+  color:rgb(33, 37, 41);
+}
+.nav:hover{
+  transition: all .2s ease-in;
+  color: #4fbfa8;
+}
+
 /* about me */
 .about{
   position: relative;
@@ -74,6 +83,17 @@ text-align: center;
   position: relative;
   top: .75rem;
   font-size:1.5rem;
+  transition: ease-in .2s all;
+
+}
+
+.icon:hover{
+  transition: all ease-in .2s;
+  color:#4fbfa8;
+
+}
+a.a-tag{
+  text-decoration: none;
 }
 
 /* tools */
