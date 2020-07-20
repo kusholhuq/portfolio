@@ -32,7 +32,7 @@ h1{
 .background-image{
   position: relative;
   top: 4rem;
-  background:url(./assets/images/mac-d.jpg) center center no-repeat;
+  background:url(./assets/images/77.jpg) center center no-repeat;
   background-size: cover;
   height: 92vh;
 }
@@ -66,7 +66,7 @@ text-align: center;
   height: 50vh;
   border: solid #4fbfa8 6px;
   border-radius: 50%;
-  background-position-x: 25%;
+  background-position-x: 35%;
 }
 
 .circle{
@@ -108,7 +108,7 @@ a.a-tag{
 }
 
 .tools-background{
-  background-image: url(./assets/images/lights.jpg);
+  background-image: url(./assets/images/l77.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
