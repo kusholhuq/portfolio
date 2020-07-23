@@ -16,6 +16,11 @@ h1{
   /* font-family: 'Yesteryear', cursive; */
   font-family: 'Norican', cursive;
 }
+.pac{
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  bottom: .4rem;
+}
 
 /* navbar */
 .logo{
@@ -162,6 +167,48 @@ a.a-tag{
     border: 2px solid #4fbfa8;
   }
 
+  .card{
+    transition: all ease-in .2s;
+  }
+
+  .card:hover{
+    transition: all ease-in .2s;
+    transform: scale(1.05);
+  }
+  .card1{
+    background-image: url(./assets/images/metvik.png);
+  }
+  .card1:hover{
+  background-image: url(./assets/images/metGif.gif);
+  }
+  .card2{
+    background-image: url(./assets/images/whats-for-dinner-thumbnail.png);
+  }
+  .card2:hover{
+  background-image: url(./assets/images/whats-for-dinner.gif);
+  }
+  .card3{
+    background-image: url(./assets/images/worldvik.png);
+  }
+  .card3:hover{
+  background-image: url(./assets/images/worldGif.gif);
+  }
+  .card-stats{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in all .2s;
+    height: 15rem;
+  }
+  .card-stats:hover{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in all .2s;
+    height: 15rem;
+  }
  /* skills */
 
  .skills{
