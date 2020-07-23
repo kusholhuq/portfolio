@@ -72,6 +72,13 @@ text-align: center;
   position: relative;
   top: 10rem;
 }
+.face{
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+.me{
+  width: 50rem;
+}
 
 .portrait{
   background-image: url(./assets/images/kushol-h.jpg);
@@ -283,13 +290,19 @@ a.a-tag{
   background-size: cover;
   height: 50vh;
   border: solid #4fbfa8 6px;
-  border-radius: 0;
+  border-radius: 50%;
   background-position-x: 42%;
+}
+.face{
+  width: 30rem;
 }
 
 .proj-card{
   width: 19rem;
   margin: 1rem;
+}
+.big-font{
+  font-size: 1.5rem;
 }
 }
 
