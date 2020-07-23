@@ -312,7 +312,12 @@ a.a-tag{
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
-
+.big-font{
+  font-size: 1.5rem;
+}
+.face{
+  width: 25rem;
+}
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
