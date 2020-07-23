@@ -338,6 +338,9 @@ a.a-tag{
     .nav-about{
       margin-left: .9rem;
     }
+    .middle{
+      flex-wrap: wrap
+    }
 }
 
 /* Landscape */
