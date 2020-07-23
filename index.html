@@ -13,7 +13,8 @@
   <!-- Devicons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
   <!-- Google fonts - Roboto Condensed for headings, Open Sans for copy-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700%7COpen+Sans:300,400,700">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700%7COpen+Sans:300,400,700">
   <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Norican&family=Yesteryear&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -26,16 +27,17 @@
 <body>
 
   <!-- navbar -->
-  <!-- <img src="./assets/images/p1short.png" alt="" class="logo"> -->
   <header id="header" class="header position-fixed">
     <div class="d-flex justify-content-between">
-      <div class="ml-5 mt-3"><h2 class="pac">Kushol Huq</h2></div>
+      <div class="ml-5 mt-3 phone-hide">
+        <h2 class="pac">Kushol Huq</h2>
+      </div>
       <div class="mr-5 d-flex">
-        <div class="mr-4 mt-3"> <a class="a-tag nav" href="#about">About</a></div>
+        <div class="mr-4 mt-3"> <a class="a-tag nav nav-about" href="#about">About</a></div>
         <div class="mr-4 mt-3"><a class="a-tag nav" href="#skills">Skills</a></div>
-        <div class="mr-4 mt-3"><a class="a-tag nav"  href="#tools">Tools</a></div>
-        <div class="mr-4 mt-3"><a class="a-tag nav"  href="#projects">Projects</a></div>
-        <div class="mr-4 mt-3"><a class="a-tag nav"  href="#contact">Contact</a></div>
+        <div class="mr-4 mt-3"><a class="a-tag nav" href="#tools">Tools</a></div>
+        <div class="mr-4 mt-3"><a class="a-tag nav" href="#projects">Projects</a></div>
+        <div class="mr-4 mt-3"><a class="a-tag nav" href="#contact">Contact</a></div>
       </div>
     </div>
 
@@ -57,8 +59,8 @@
   <!-- About me -->
   <section id="about">
     <div class="container about">
-      <div class="row d-flex">
-        <div class="col-md-4 ">
+      <div class="row d-flex justify-content-around">
+        <div class="face">
           <div class="portrait pl-5 mt-3"></div>
           <div class="d-flex mt-3 justify-content-between">
 
@@ -90,15 +92,15 @@
             </div>
           </div>
         </div>
-        <div class="pl-5 col-md-8">
+        <div class="pl-5 pr-5 me">
           <h1 class="underline mb-4 yester">About Me</h1>
-          <p>
+          <p class="big-font">
             I’ve had the opportunity to hone my problem solving, design, and communication skills in three separate
             disciplines.
             Physics, photography, and coaching gymnastics. And it was coding in my free time where I found them all come
             together .
           </p>
-          <p>
+          <p class="big-font">
             So I decided to make a huge change and join a coding bootcamp. The full-time 13 week program - coding 700+
             hours in a
             simulated professional work environment. This included daily stand ups, communicating with my team via slack
@@ -107,7 +109,7 @@
             senior level
             developer.
           </p>
-          <p>
+          <p class="big-font">
             I am skilled in JavaScript (ES5/ES6+), React.js, Node.js, Express, PostgreSQL, jQuery, Bootstrap 4, HTML5
             and CSS3. My
             toolset includes Git/GitHub, VSCode, npm, Webpack, Figma and MeisterTask.
@@ -272,108 +274,116 @@
       <div class="row justify-content-center mt-5 mb-5">
         <h1 class="underline mt-5 yester">Projects</h1>
       </div>
-      <div class="card-deck mb-5">
+      <div class="mb-5 d-flex flex-wrap justify-content-center">
 
         <!-- card 1 -->
-        <div class="card col-sm-4">
-          <!-- <img class="card-img-top" src="./assets/images/metpic.png" alt="Card image cap"> -->
-          <a href="https://metalogy.kusholhuq.com/" target="_blank"><div class="card-stats card1"></div></a>
+        <div class="card proj-card">
+          <a href="https://metalogy.kusholhuq.com/" target="_blank">
+            <div class="card-stats card1"></div>
+          </a>
           <div class="card-body">
             <h3 class="card-title text-center font-weight-bold">Metalogy</h3>
-            <p class="card-text">A full stack Node.js and React shopping cart app where users can add items to cart
+            <p class="card-text proj-font">A full stack Node.js and React shopping cart app where users can add items to
+              cart
               and checkout.
             </p>
             <div class="text-center">
-              <a href="https://github.com/kusholhuq/wicked-sales-js" class="btn btn-primary proj-button col-sm-5" target="_blank"><i
-                  class="fa fa-github" aria-hidden="true"></i>GitHub</a>
-              <a href="https://metalogy.kusholhuq.com/" class="btn btn-primary proj-button col-sm-5" target="_blank"><i
-                  class="fa fa-external-link" aria-hidden="true"></i>Live</a>
+              <a href="https://github.com/kusholhuq/wicked-sales-js"
+                class="btn btn-primary proj-button col-sm-5 proj-font" target="_blank"><i class="fa fa-github proj-font"
+                  aria-hidden="true"></i>GitHub</a>
+              <a href="https://metalogy.kusholhuq.com/" class="btn btn-primary proj-button proj-font col-sm-5"
+                target="_blank"><i class="fa fa-external-link proj-font" aria-hidden="true"></i>Live</a>
             </div>
           </div>
 
-            <div class=" card-footer text-center ">
-              <h5>Developed with</h5>
-              <p>
-                <span class="badge-custom-color">React.js</span>
-                <span class="badge-custom-color">Node.js</span>
-                <span class="badge-custom-color">PostgreSQL</span>
-                <span class="badge-custom-color">JS(ES6)</span>
-                <span class="badge-custom-color">HTML5</span>
-                <span class="badge-custom-color">CSS3</span>
-                <span class="badge-custom-color">Express</span>
-                <span class="badge-custom-color">express-session</span>
-                <span class="badge-custom-color">Bootstrap 4</span>
-                <span class="badge-custom-color">babel</span>
-                <span class="badge-custom-color">webpack</span>
-              </p>
+          <div class=" card-footer text-center ">
+            <h5>Developed with</h5>
+            <p>
+              <span class="badge-custom-color proj-font">React.js</span>
+              <span class="badge-custom-color proj-font">Node.js</span>
+              <span class="badge-custom-color proj-font">PostgreSQL</span>
+              <span class="badge-custom-color proj-font">JS(ES6)</span>
+              <span class="badge-custom-color proj-font">HTML5</span>
+              <span class="badge-custom-color proj-font">CSS3</span>
+              <span class="badge-custom-color proj-font">Express</span>
+              <span class="badge-custom-color proj-font">express-session</span>
+              <span class="badge-custom-color proj-font">Bootstrap 4</span>
+              <span class="badge-custom-color proj-font">babel</span>
+              <span class="badge-custom-color proj-font">webpack</span>
+            </p>
 
 
           </div>
         </div>
 
-<!-- card 2 -->
-        <div class="card col-sm-4">
-          <!-- <img class="card-img-top" src="./assets/images/whatspic.png" alt="Card image cap"> -->
-          <a href="https://whats-for-dinner.kusholhuq.com/" target="_blank"><div class="card-stats card2"></div></a>
+        <!-- card 2 -->
+        <div class="card proj-card">
+          <a href="https://whats-for-dinner.kusholhuq.com/" target="_blank">
+            <div class="card-stats card2"></div>
+          </a>
           <div class="card-body">
             <h3 class="card-title text-center font-weight-bold">What's for Dinner?</h3>
-            <p class="card-text">*WIP* A restaurant matching web app for two hungry users who want to agree on a place
-            to eat.
+            <p class="card-text proj-font">*WIP* A restaurant matching web app for two hungry users who want to agree on
+              a place
+              to eat.
             </p>
             <div class="text-center">
-              <a href="https://github.com/cherie-pavicoTsukayama/whats-for-dinner" class="btn btn-primary proj-button col-sm-5" target="_blank"><i
-                  class="fa fa-github" aria-hidden="true"></i>GitHub</a>
-              <a href="https://whats-for-dinner.kusholhuq.com/" class="btn btn-primary proj-button col-sm-5" target="_blank"><i
-                  class="fa fa-external-link" aria-hidden="true"></i>Live</a>
+              <a href="https://github.com/cherie-pavicoTsukayama/whats-for-dinner"
+                class="btn btn-primary proj-button col-sm-5 proj-font" target="_blank"><i class="fa fa-github proj-font"
+                  aria-hidden="true"></i>GitHub</a>
+              <a href="https://whats-for-dinner.kusholhuq.com/" class="btn btn-primary proj-button col-sm-5 proj-font"
+                target="_blank"><i class="fa fa-external-link proj-font" aria-hidden="true"></i>Live</a>
             </div>
           </div>
 
           <div class=" card-footer text-center ">
             <h5>Developed with</h5>
             <p>
-              <span class="badge-custom-color">React.js</span>
-              <span class="badge-custom-color">Node.js</span>
-              <span class="badge-custom-color">PostgreSQL</span>
-              <span class="badge-custom-color">JS(ES6)</span>
-              <span class="badge-custom-color">HTML5</span>
-              <span class="badge-custom-color">CSS3</span>
-              <span class="badge-custom-color">Express</span>
-              <span class="badge-custom-color">express-session</span>
-              <span class="badge-custom-color">node-fetch</span>
-              <span class="badge-custom-color">babel</span>
-              <span class="badge-custom-color">webpack</span>
+              <span class="badge-custom-color proj-font">React.js</span>
+              <span class="badge-custom-color proj-font">Node.js</span>
+              <span class="badge-custom-color proj-font">PostgreSQL</span>
+              <span class="badge-custom-color proj-font">JS(ES6)</span>
+              <span class="badge-custom-color proj-font">HTML5</span>
+              <span class="badge-custom-color proj-font">CSS3</span>
+              <span class="badge-custom-color proj-font">Express</span>
+              <span class="badge-custom-color proj-font">express-session</span>
+              <span class="badge-custom-color proj-font">node-fetch</span>
+              <span class="badge-custom-color proj-font">babel</span>
+              <span class="badge-custom-color proj-font">webpack</span>
             </p>
 
 
           </div>
         </div>
 
-<!-- card 3 -->
-        <div class="card col-sm-4">
-          <!-- <img class="card-img-top" src="./assets/images/worldpic.png" alt="Card image cap"> -->
-          <a href="https://world-clock.kusholhuq.com/" target="_blank"><div class="card-stats card3"></div></a>
+        <!-- card 3 -->
+        <div class="card proj-card">
+          <a href="https://world-clock.kusholhuq.com/" target="_blank">
+            <div class="card-stats card3"></div>
+          </a>
           <div class="card-body">
             <h3 class="card-title text-center font-weight-bold">World Clock</h3>
-            <p class="card-text">A mobile first web app where users can get the time and weather from cities across the globe.
+            <p class="card-text proj-font">A mobile first web app where users can get the time and weather from cities
+              across the globe.
             </p>
             <div class="text-center">
-              <a href="https://github.com/kusholhuq/world-clock" class="btn btn-primary proj-button col-sm-5" target="_blank"><i class="fa fa-github"
-                  aria-hidden="true"></i>GitHub</a>
-              <a href="https://world-clock.kusholhuq.com/" class="btn btn-primary proj-button col-sm-5" target="_blank"><i class="fa fa-external-link"
-                  aria-hidden="true"></i>Live</a>
+              <a href="https://github.com/kusholhuq/world-clock" class="btn btn-primary proj-button col-sm-5 proj-font"
+                target="_blank"><i class="fa fa-github proj-font" aria-hidden="true"></i>GitHub</a>
+              <a href="https://world-clock.kusholhuq.com/" class="btn btn-primary proj-button col-sm-5 proj-font"
+                target="_blank"><i class="fa fa-external-link proj-font" aria-hidden="true"></i>Live</a>
             </div>
           </div>
           <div class=" card-footer text-center ">
             <h5>Developed with</h5>
             <p>
-              <span class="badge-custom-color">HTML5</span>
-              <span class="badge-custom-color">CSS3</span>
-              <span class="badge-custom-color">JS(ES5)</span>
-              <span class="badge-custom-color">Node.js</span>
-              <span class="badge-custom-color">node-fetch</span>
-              <span class="badge-custom-color">jQuery</span>
-              <span class="badge-custom-color">openWeatherMap API</span>
-              <span class="badge-custom-color">Google Time Zone API</span>
+              <span class="badge-custom-color proj-font">HTML5</span>
+              <span class="badge-custom-color proj-font">CSS3</span>
+              <span class="badge-custom-color proj-font">JS(ES5)</span>
+              <span class="badge-custom-color proj-font">Node.js</span>
+              <span class="badge-custom-color proj-font">node-fetch</span>
+              <span class="badge-custom-color proj-font">jQuery</span>
+              <span class="badge-custom-color proj-font">openWeatherMap API</span>
+              <span class="badge-custom-color proj-font">Google Time Zone API</span>
             </p>
           </div>
         </div>
@@ -383,26 +393,27 @@
   <section id="contact" class="push-down contact pt-5 pb-5">
     <div class="container">
       <div class="row justify-content-center d-flex">
-        <div class="turq pt-5 font-weight-bold mr-3">________________________________</div>
+        <div class="turq pt-5 font-weight-bold mr-3 phone-hide">________________________________</div>
         <h2 class="white mb-5 mt-5 yester">Contact</h2>
-        <div class="turq pt-5 font-weight-bold ml-3">________________________________</div>
+        <div class="turq pt-5 font-weight-bold ml-3 phone-hide">________________________________</div>
       </div>
-      <div class="row d-flex justify-content-center">
-        <div class="d-flex middle justify-content-between">
-        <div class="d-flex turq">
-          <i class="fa fa-map-marker push-down-slight" aria-hidden="true"></i>
-          <p class="white ml-2">Orange County, CA</p></div>
-        <div>
-          <a href="mailto:kusholhuq@gmail.com" target="_blank" class="d-flex turq a-tag  hover-turq">
-            <i class="fa fa-envelope-open push-down-slight" aria-hidden="true"></i>
-            <p class="white contact-icon ml-2">kusholhuq@gmail.com</p>
-          </a>
-        </div>
+      <div class="row d-flex justify-content-around">
+        <div class="d-flex middle justify-content-around">
+          <div class="d-flex turq">
+            <i class="fa fa-map-marker push-down-slight" aria-hidden="true"></i>
+            <p class="white ml-2">Orange County, CA</p>
+          </div>
           <div>
-          <a href="tel:2406886298" target="_blank" class="d-flex turq a-tag hover-turq">
-          <i class="fa fa-phone push-down-slight" aria-hidden="true"></i>
-          <p class="white contact-icon ml-2">(240) 688-6298</p>
-        </a></div>
+            <a href="mailto:kusholhuq@gmail.com" target="_blank" class="d-flex turq a-tag  hover-turq">
+              <i class="fa fa-envelope-open push-down-slight" aria-hidden="true"></i>
+              <p class="white contact-icon ml-2">kusholhuq@gmail.com</p>
+            </a>
+          </div>
+          <div>
+            <a href="tel:2406886298" target="_blank" class="d-flex turq a-tag hover-turq">
+              <i class="fa fa-phone push-down-slight" aria-hidden="true"></i>
+              <p class="white contact-icon ml-2">(240) 688-6298</p>
+            </a></div>
 
         </div>
       </div>
@@ -418,7 +429,8 @@
           </a>
         </div>
         <div class="circle text-center white-background m-3  ">
-          <a class="a-tag" href="https://drive.google.com/file/d/1xc1ta6-YfVkHvYOsa2BQbRasEnBbMRiu/view?usp=sharing" target="_blank">
+          <a class="a-tag" href="https://drive.google.com/file/d/1xc1ta6-YfVkHvYOsa2BQbRasEnBbMRiu/view?usp=sharing"
+            target="_blank">
             <i class="fa fa-file-text-o white icon contact-icon " aria-hidden="true"></i>
           </a>
         </div>
@@ -428,11 +440,6 @@
       </div>
     </div>
   </section>
-  <!-- <section id="copy" class="push-down">
-    <p>© Kushol Huq 2020</p>
-  </section> -->
-
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>

@@ -13,7 +13,6 @@ h1{
   font-size: 3.5rem;
 }
 .yester{
-  /* font-family: 'Yesteryear', cursive; */
   font-family: 'Norican', cursive;
 }
 .pac{
@@ -71,6 +70,13 @@ text-align: center;
 .about{
   position: relative;
   top: 10rem;
+}
+.face{
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+.me{
+  width: 50rem;
 }
 
 .portrait{
@@ -167,6 +173,11 @@ a.a-tag{
     border: 2px solid #4fbfa8;
   }
 
+  .proj-card{
+  width: 19rem;
+  margin: 1rem;
+}
+
   .card{
     transition: all ease-in .2s;
   }
@@ -219,7 +230,7 @@ a.a-tag{
 /* footer */
 
 .middle{
-  width: 50vw;
+  width: 75vw;
 }
 
 .contact{
@@ -231,21 +242,6 @@ a.a-tag{
   top: .2rem;
 }
 
-/* .white-background{
-  background-color: rgb(248, 249, 250);
-  transition: ease .2s all;
-}
-
-.white-background:hover{
-  background-color:#4fbfa8;
-
-  transition: ease .2s all;
-}
-
-.contact-icon:{
-  transition: ease-in .2s all
-}
-*/
 .contact-icon:hover{
   color: #4fbfa8;
   transition: ease-in .1s all
@@ -253,4 +249,92 @@ a.a-tag{
 
 .hover-turq:hover{
   color: #4fbfa8;
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.portrait{
+  background-image: url(./assets/images/kushol-h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  border: solid #4fbfa8 6px;
+  border-radius: 50%;
+  background-position-x: 42%;
+}
+.face{
+  width: 30rem;
+}
+
+.proj-card{
+  width: 19rem;
+  margin: 1rem;
+}
+.big-font{
+  font-size: 1.5rem;
+}
+.proj-font{
+  font-size: 1.2rem;
+}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.big-font{
+  font-size: 1.5rem;
+}
+.proj-font{
+  font-size: 1.2rem;
+}
+.face{
+  width: 25rem;
+}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .phone-hide{
+      display: none;
+    }
+    .nav-about{
+      margin-left: .9rem;
+    }
+    .middle{
+      flex-wrap: wrap
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+ .face{
+   width: 20rem;
+ }
+ .portrait{
+   height: 20rem;
+ }
+ .middle{
+  width: 100%;
+ }
 }
