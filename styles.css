@@ -304,6 +304,9 @@ a.a-tag{
 .big-font{
   font-size: 1.5rem;
 }
+.proj-font{
+  font-size: 1.2rem;
+}
 }
 
 /* Landscape */
@@ -314,6 +317,9 @@ a.a-tag{
   and (-webkit-min-device-pixel-ratio: 2) {
 .big-font{
   font-size: 1.5rem;
+}
+.proj-font{
+  font-size: 1.2rem;
 }
 .face{
   width: 25rem;
