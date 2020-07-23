@@ -72,7 +72,7 @@ text-align: center;
   top: 10rem;
 }
 .face{
-  width: 20rem;
+  width: 21rem;
   margin-bottom: 3rem;
 }
 .me{
@@ -86,7 +86,7 @@ text-align: center;
   height: 50vh;
   border: solid #4fbfa8 6px;
   border-radius: 50%;
-  background-position-x: 35%;
+  background-position-x: 39%;
 }
 
 .circle{
