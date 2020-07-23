@@ -254,3 +254,40 @@ a.a-tag{
 .hover-turq:hover{
   color: #4fbfa8;
 }
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.portrait{
+  background-image: url(./assets/images/kushol-h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  border: solid #4fbfa8 6px;
+  border-radius: 0;
+  background-position-x: 42%;
+}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
