@@ -141,7 +141,8 @@ a.a-tag{
   color: white;
 }
 .box{
-  margin: 4rem 0;
+  width: 10rem;
+  margin: 4rem 3rem;
 }
 .bigg{
   font-size:5rem;
@@ -319,6 +320,10 @@ a.a-tag{
     }
     .middle{
       flex-wrap: wrap
+    }
+    .box{
+      width: 7rem;
+      margin: 2rem 1rem;
     }
 }
 
