@@ -200,10 +200,10 @@ a.a-tag{
   background-image: url(./assets/images/whats-for-dinner.gif);
   }
   .card3{
-    background-image: url(./assets/images/worldvik.png);
+    background-image: url(./assets/images/clearPic6.png);
   }
   .card3:hover{
-  background-image: url(./assets/images/worldGif.gif);
+  background-image: url(./assets/images/clearGif.gif);
   }
   .card-stats{
 
