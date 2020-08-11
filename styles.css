@@ -83,7 +83,8 @@ text-align: center;
   background-image: url(./assets/images/kushol-h.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  /* height: 50vh; */
+  height: 21rem;
   border: solid #4fbfa8 6px;
   border-radius: 50%;
   background-position-x: 39%;
