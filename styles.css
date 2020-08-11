@@ -191,19 +191,19 @@ a.a-tag{
     background-image: url(./assets/images/metvik.png);
   }
   .card1:hover{
-  background-image: url(./assets/images/metGif.gif);
+  background-image: url(./assets/images/metReduced2.gif);
   }
   .card2{
     background-image: url(./assets/images/whats-for-dinner-thumbnail.png);
   }
   .card2:hover{
-  background-image: url(./assets/images/whats-for-dinner.gif);
+  background-image: url(./assets/images/DinnerGifReduced4.gif);
   }
   .card3{
     background-image: url(./assets/images/clearPic6.png);
   }
   .card3:hover{
-  background-image: url(./assets/images/clearGif.gif);
+  background-image: url(./assets/images/clearGifReduced1.gif);
   }
   .card-stats{
 
