@@ -34,7 +34,6 @@ h1{
   width:100vw;
   height: 4rem;
   font-weight: bold;
-  /* background: rgba(0,0,0,.5); */
   background: rgb(248, 249, 250);
   box-shadow: rgba(0,0,0,.5) 0 3px 10px 3px;
   color: #4fbfa8;
@@ -45,7 +44,7 @@ h1{
 .background-image{
   position: relative;
   top: 4rem;
-  background:url(./assets/images/77.jpg) center center no-repeat;
+  background:url(./assets/images/50.jpg) center center no-repeat;
   background-size: cover;
   height: 92vh;
 }
@@ -83,7 +82,7 @@ text-align: center;
   background-image: url(./assets/images/kushol-h.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 21rem;
   border: solid #4fbfa8 6px;
   border-radius: 50%;
   background-position-x: 39%;
@@ -191,19 +190,19 @@ a.a-tag{
     background-image: url(./assets/images/metvik.png);
   }
   .card1:hover{
-  background-image: url(./assets/images/metGif.gif);
+  background-image: url(./assets/images/metReduced2.gif);
   }
   .card2{
     background-image: url(./assets/images/whats-for-dinner-thumbnail.png);
   }
   .card2:hover{
-  background-image: url(./assets/images/whats-for-dinner.gif);
+  background-image: url(./assets/images/DinnerGifReduced4.gif);
   }
   .card3{
     background-image: url(./assets/images/clearPic6.png);
   }
   .card3:hover{
-  background-image: url(./assets/images/clearGif.gif);
+  background-image: url(./assets/images/clearGifReduced1.gif);
   }
   .card-stats{
 
