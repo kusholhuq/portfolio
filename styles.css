@@ -204,6 +204,18 @@ a.a-tag{
   .card3:hover{
   background-image: url(./assets/images/clearGifReduced1.gif);
   }
+  .card4{
+  background-image: url(./assets/images/cover.PNG);
+  }
+  .card4:hover{
+  background-image: url(./assets/images/demosubmit4.gif);
+  }
+  .card5{
+  background-image: url(./assets/images/clearPic6.png);
+  }
+  .card5:hover{
+  background-image: url(./assets/images/clearGifReduced1.gif);
+  }
   .card-stats{
 
     background-repeat: no-repeat;
