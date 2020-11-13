@@ -235,7 +235,11 @@ a.a-tag{
  /* skills */
 
  .skills{
-   background-color: rgb(248, 249, 250);
+   background-color: rgb(255, 255, 255);
+ }
+ .newApps{
+   /* background-color: rgb(248, 249, 250); */
+   background-color: rgba(79, 191, 168,.15);
  }
 
 
