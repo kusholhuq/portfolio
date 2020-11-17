@@ -261,6 +261,7 @@ a.a-tag{
   background-repeat: no-repeat;
   background-size: cover;
   border: 4px solid #4fbfa8;
+  margin-bottom:1rem;
 }
 li.turq-back{
   background-color: #4fbfa8;
