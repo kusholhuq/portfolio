@@ -56,3 +56,15 @@ window.onload = function () {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
 };
+
+GitHubCalendar(".calendar", "your-username");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "kusholhuq", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "kusholhuq", {
+  proxy(username) {
+    return fetch(`https://your-proxy.com/github?user=${username}`)
+  }
+}).then(r => r.text())

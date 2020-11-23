@@ -296,6 +296,12 @@ li.turq-back{
   position: relative;
   top: .2rem;
 }
+.calendar-container{
+  position: relative;
+  top: 12rem;
+  display: flex;
+  justify-content: space-around;
+}
 
 .contact-icon:hover{
   color: #4fbfa8;
@@ -379,6 +385,18 @@ li.turq-back{
       width: 7rem;
       margin: 2rem 1rem;
     }
+    /* .calendar-container{
+      width: 21.5rem;
+      display: inline-block;
+      margin-left: .75rem;
+      background-size: contain;
+    } */
+    .calendar-container{
+      display: flex;
+      justify-content: center;
+      transform: scale(.4);
+      top: 10rem;
+    }
 }
 
 /* Landscape */
@@ -396,4 +414,10 @@ li.turq-back{
  .middle{
   width: 100%;
  }
+ .calendar-container{
+      width: 40rem;
+      display: inline-block;
+      margin-left: .75rem;
+      background-size: contain;
+    }
 }
