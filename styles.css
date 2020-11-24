@@ -304,8 +304,6 @@ li.turq-back{
 }
 span.contrib-number{
       font-size: 2rem;
-      /* font-weight: bold; */
-      /* padding-top: 1rem; */
     }
     span.text-muted{
       font-size: 1rem;
@@ -403,7 +401,6 @@ span.contrib-number{
 span.contrib-number{
       font-size: 2rem;
       font-weight: bold;
-      /* padding-top: 1rem; */
     }
     span.text-muted{
       font-size: 1.5rem;
@@ -441,12 +438,6 @@ span.contrib-number{
       width: 7rem;
       margin: 2rem 1rem;
     }
-    /* .calendar-container{
-      width: 21.5rem;
-      display: inline-block;
-      margin-left: .75rem;
-      background-size: contain;
-    } */
     .calendar-container{
       display: flex;
       justify-content: center;
@@ -487,12 +478,7 @@ span.contrib-number{
  .middle{
   width: 100%;
  }
- /* .calendar-container{
-      width: 40rem;
-      display: inline-block;
-      margin-left: .75rem;
-      background-size: contain;
-    } */
+
     .calendar-container{
       display: flex;
       justify-content: center;
