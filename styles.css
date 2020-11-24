@@ -344,6 +344,10 @@ li.turq-back{
 .proj-font{
   font-size: 1.2rem;
 }
+.calendar-container{
+  transform: scale(.8);
+  height: 12rem;
+}
 }
 
 /* Landscape */
