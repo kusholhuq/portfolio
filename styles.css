@@ -396,6 +396,7 @@ li.turq-back{
       justify-content: center;
       transform: scale(.4);
       top: 10rem;
+      height: 3rem;
     }
 }
 
@@ -414,10 +415,17 @@ li.turq-back{
  .middle{
   width: 100%;
  }
- .calendar-container{
+ /* .calendar-container{
       width: 40rem;
       display: inline-block;
       margin-left: .75rem;
       background-size: contain;
+    } */
+    .calendar-container{
+      display: flex;
+      justify-content: center;
+      transform: scale(.7);
+      top: 10rem;
+      height: 8rem;
     }
 }
