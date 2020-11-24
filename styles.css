@@ -399,8 +399,24 @@ li.turq-back{
       display: flex;
       justify-content: center;
       transform: scale(.4);
-      top: 10rem;
-      height: 3rem;
+      top: 8rem;
+      height: 7rem;
+    }
+    span.contrib-number{
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    span.text-muted{
+      font-size: 2rem;
+      color: black;
+    }
+    div.float-left.text-gray{
+      font-size: 2rem;
+      color: black;
+
+    }
+    div.contrib-legend.text-gray{
+      display: none;
     }
 }
 
@@ -430,6 +446,23 @@ li.turq-back{
       justify-content: center;
       transform: scale(.7);
       top: 10rem;
-      height: 8rem;
+      height: 12rem;
+    }
+    span.contrib-number{
+      font-size: 2rem;
+      font-weight: bold;
+      padding-top: 1rem;
+    }
+    span.text-muted{
+      font-size: 1.5rem;
+      color: black;
+    }
+    div.float-left.text-gray{
+      font-size: 1.1rem;
+      color: black;
+
+    }
+    div.contrib-legend.text-gray{
+      font-size:1.5;
     }
 }
