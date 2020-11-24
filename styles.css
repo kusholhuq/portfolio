@@ -296,6 +296,27 @@ li.turq-back{
   position: relative;
   top: .2rem;
 }
+.calendar-container{
+  position: relative;
+  top: 12rem;
+  display: flex;
+  justify-content: space-around;
+}
+span.contrib-number{
+      font-size: 2rem;
+    }
+    span.text-muted{
+      font-size: 1rem;
+      color: black;
+    }
+    div.float-left.text-gray{
+      font-size: 1rem;
+      color: black;
+
+    }
+    div.contrib-legend.text-gray{
+      font-size:1.5;
+    }
 
 .contact-icon:hover{
   color: #4fbfa8;
@@ -338,6 +359,28 @@ li.turq-back{
 .proj-font{
   font-size: 1.2rem;
 }
+.calendar-container{
+  transform: scale(.8);
+  height: 15rem;
+  top: 10rem;
+}
+span.contrib-number{
+      font-size: 2rem;
+      font-weight: bold;
+      padding-top: 1rem;
+    }
+    span.text-muted{
+      font-size: 1.5rem;
+      color: black;
+    }
+    div.float-left.text-gray{
+      font-size: 1.1rem;
+      color: black;
+
+    }
+    div.contrib-legend.text-gray{
+      font-size:1.5;
+    }
 }
 
 /* Landscape */
@@ -355,6 +398,22 @@ li.turq-back{
 .face{
   width: 25rem;
 }
+span.contrib-number{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    span.text-muted{
+      font-size: 1.5rem;
+      color: black;
+    }
+    div.float-left.text-gray{
+      font-size: 1.1rem;
+      color: black;
+
+    }
+    div.contrib-legend.text-gray{
+      font-size:1.5;
+    }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -379,6 +438,29 @@ li.turq-back{
       width: 7rem;
       margin: 2rem 1rem;
     }
+    .calendar-container{
+      display: flex;
+      justify-content: center;
+      transform: scale(.4);
+      top: 8rem;
+      height: 7rem;
+    }
+    span.contrib-number{
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    span.text-muted{
+      font-size: 2rem;
+      color: black;
+    }
+    div.float-left.text-gray{
+      font-size: 2rem;
+      color: black;
+
+    }
+    div.contrib-legend.text-gray{
+      display: none;
+    }
 }
 
 /* Landscape */
@@ -396,4 +478,29 @@ li.turq-back{
  .middle{
   width: 100%;
  }
+
+    .calendar-container{
+      display: flex;
+      justify-content: center;
+      transform: scale(.7);
+      top: 10rem;
+      height: 12rem;
+    }
+    span.contrib-number{
+      font-size: 2rem;
+      font-weight: bold;
+      padding-top: 1rem;
+    }
+    span.text-muted{
+      font-size: 1.5rem;
+      color: black;
+    }
+    div.float-left.text-gray{
+      font-size: 1.1rem;
+      color: black;
+
+    }
+    div.contrib-legend.text-gray{
+      font-size:1.5;
+    }
 }
