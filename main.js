@@ -57,15 +57,15 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
-// //GitHubCalendar(".calendar", "your-username");
-// GitHubCalendar(".calendar", "kusholhuq");
+//GitHubCalendar(".calendar", "your-username");
+GitHubCalendar(".calendar", "kusholhuq");
 
-// // or enable responsive functionality:
-// GitHubCalendar(".calendar", "kusholhuq", { responsive: true });
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "kusholhuq", { responsive: true });
 
-// // Use a proxy
-// GitHubCalendar(".calendar", "kusholhuq", {
-//   proxy(username) {
-//     return fetch(`https://your-proxy.com/github?user=${username}`)
-//   }
-// }).then(r => r.text());
+// Use a proxy
+GitHubCalendar(".calendar", "kusholhuq", {
+  proxy(username) {
+    return fetch(`https://your-proxy.com/github?user=${username}`)
+  }
+}).then(r => r.text());
