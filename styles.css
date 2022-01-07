@@ -216,6 +216,12 @@ a.a-tag{
   .card5:hover{
   background-image: url(./assets/images/thrivegif.gif);
   }
+  .card6{
+  background-image: url(./assets/images/smallcover.png);
+  }
+  .card6:hover{
+  background-image: url(./assets/images/piano-preview.gif);
+  }
   .card-stats{
 
     background-repeat: no-repeat;
