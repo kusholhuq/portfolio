@@ -1,71 +1,46 @@
-// typewriter
+// Loader
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const loader = document.getElementById('loader');
+    loader.classList.add('fade-out');
+    setTimeout(() => loader.remove(), 500);
+  }, 1000);
+});
 
-var TxtType = function (el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = 700;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
 
-TxtType.prototype.tick = function () {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
+// Active nav
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav[href^="#"]');
 
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-
-  this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-  var that = this;
-  var delta = 200 - Math.random() * 100;
-
-  if (this.isDeleting) { delta /= 2; }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function () {
-    that.tick();
-  }, delta);
-};
-
-window.onload = function () {
-  var elements = document.getElementsByClassName('typewrite');
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-type');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtType(elements[i], JSON.parse(toRotate), period);
+const navObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(link => link.classList.remove('active'));
+      const active = document.querySelector(`.nav[href="#${entry.target.id}"]`);
+      if (active) active.classList.add('active');
     }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-  document.body.appendChild(css);
-};
+  });
+}, { threshold: 0.4 });
 
-//GitHubCalendar(".calendar", "your-username");
-GitHubCalendar(".calendar", "kusholhuq");
+sections.forEach(s => navObserver.observe(s));
 
-// or enable responsive functionality:
-GitHubCalendar(".calendar", "kusholhuq", { responsive: true });
+// Scroll animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
 
-// Use a proxy
-GitHubCalendar(".calendar", "kusholhuq", {
-  proxy(username) {
-    return fetch(`https://your-proxy.com/github?user=${username}`)
-  }
-}).then(r => r.text());
+document.querySelectorAll('.anim').forEach(el => observer.observe(el));
+
+// Copy email
+function copyEmail() {
+  navigator.clipboard.writeText('kusholhuq@gmail.com').then(() => {
+    const btn = document.getElementById('copy-email');
+    btn.textContent = 'Copied!';
+    setTimeout(() => { btn.textContent = 'kusholhuq@gmail.com'; }, 2000);
+  });
+}
